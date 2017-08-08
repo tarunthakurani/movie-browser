@@ -1,0 +1,34 @@
+.watchedPoster {
+  width: 120px;
+  cursor: pointer;
+}
+
+.watchedBlock {
+  display: inline-block;
+  padding: 50px 70px 0 0;
+  position: relative;
+}
+
+.voteSection {
+  display: inline-block;
+  position: absolute;
+}
+
+.voteIcon {
+  display: block;
+  margin: 0 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.voteIcon.upvote.active:before {
+  color: #00AA00;
+}
+.voteIcon.downvote.active:before {
+  color: #AA0000;
+}
+
+.voteIcon:before {
+  color: #999;
+  font-size: 20px;
+}

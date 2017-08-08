@@ -1,0 +1,81 @@
+@import url("https://file.myfontastic.com/KEkszTEbFcK4ZgeYc6ggEM/icons.css");
+.mainContainer {
+  padding: 0 10%;
+}
+
+body {
+  background-color: #222;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+}
+
+.App-header {
+  background-color: #222;
+  display: inline-block;
+  height: 50px;
+  padding: 5px 20px 5px 0;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.searchWrap {
+  display: inline-block;
+  float: right;
+  padding: 15px 0;
+}
+
+.searchBox {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  height: 15px;
+  min-width: 228px;
+  background-color: #050505;
+  color: #666;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.searchBtn {
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #777;
+  color: #111;
+  outline: none;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.moviePosterWrap {
+  display: inline-block;
+  float: left;
+}
+
+.moviePosterMain {
+  width: 160px;
+  cursor: pointer;
+}
+
+.content {
+  padding-top: 10%;
+}
+
+.noResultMsg {
+  text-align: center;
+  color: #ccc;
+}
+
+.noResultMsg > span {
+  font-weight: bold;
+}
